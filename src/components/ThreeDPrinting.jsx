@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { MessageSquare, Printer, ChevronDown, ChevronUp } from "lucide-react";
 
-const Printing3D = () => {
+const ThreeDPrinting = () => {
   const [expandedServiceId, setExpandedServiceId] = useState(null);
 
   const toggleService = (id) => {
@@ -126,4 +126,4 @@ const Printing3D = () => {
   );
 };
 
-export default Printing3D;
+export default ThreeDPrinting;

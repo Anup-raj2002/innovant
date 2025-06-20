@@ -14,7 +14,7 @@ const Footer = () => {
     {
       title: 'Services',
       links: [
-        { name: '3D Printing', href: '/courses/3DPrinting' },
+        { name: '3D Printing', href: '/components/ThreeDPrinting' },
         { name: 'CAD Design', href: '/courses/AutoCAD' },
         { name: 'Engineering Design', href: '/courses/EngineeringDesign' },
         { name: 'Technology Staffing', href: '/courses/TechnologyStaffing' },
@@ -23,9 +23,9 @@ const Footer = () => {
     {
       title: 'Company',
       links: [
-        { name: 'About Us', href: '#about' },
-        { name: 'Portfolio', href: '#portfolio' },
-        { name: 'Academy', href: '#academy' },
+        { name: 'About Us', href: '/about' },
+        { name: 'Portfolio', href: '/portfolio' },
+        { name: 'Academy', href: '/academy' },
         { name: 'Careers', href: '#careers' },
       ],
     },

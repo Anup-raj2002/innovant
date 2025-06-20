@@ -22,7 +22,8 @@ const TechnologyStaffing = React.lazy(() => import('./components/services/Techno
 const EngineeringDesign = React.lazy(() => import('./components/services/EngineeringDesign'));
 const FAQ = React.lazy(() => import('./components/FAQ'));
 const Blogs = React.lazy(() => import('./components/Blogs')); 
-const CaseStudies = React.lazy(() => import('./components/CaseStudies')); // Assuming you have a CaseStudies component
+const CaseStudies = React.lazy(() => import('./components/CaseStudies'));
+const Printing=React.lazy(()=> import('./components/ThreeDPrinting'));
 // Example of another lazy-loaded component
 // Component for your main landing page sections
 const HomePageContent = () => (
@@ -81,6 +82,7 @@ function App() {
               <Route path="/components/FAQ" element={<FAQ />} />
               <Route path="/components/Blogs" element={<Blogs />} />
               <Route path="/components/CaseStudies" element={<CaseStudies />} />
+              <Route path="/components/ThreeDPrinting" element={<Printing />} />
 
               {/* Add more routes here as needed for other pages linked in your Navbar. */}
             </Routes>
