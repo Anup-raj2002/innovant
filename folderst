@@ -1,0 +1,34 @@
+innovant-3d-website/
+├── public/
+├── src/
+│   ├── assets/
+│   │   └── logo.svg
+│   ├── components/
+│   │   ├── 3d/
+│   │   │   ├── AcademyModel.jsx
+│   │   │   ├── CadModel.jsx
+│   │   │   ├── CompanyModel.jsx
+│   │   │   ├── EngineeringScene.jsx
+│   │   │   ├── PrintingModel.jsx
+│   │   │   └── ToolingModel.jsx
+│   │   ├── About.jsx
+│   │   ├── Academy.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Cursor.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Loader.jsx
+│   │   ├── Logo.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Portfolio.jsx
+│   │   └── Services.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── vite.config.js
